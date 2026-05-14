@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Sederhana</title>
+
+  <style>
+    body{
+      font-family: Arial;
+      background: #f0f2f5;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    .box{
+      background: white;
+      width: 300px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    h1{
+      color: #0077ff;
+    }
+
+    p{
+      color: #555;
+    }
+
+    button{
+      padding: 10px 20px;
+      background: #0077ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover{
+      background: #0055cc;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <h1>Halo Dunia 👋</h1>
+    <p>Ini website sederhana saya</p>
+
+    <button onclick="pesan()">Klik Saya</button>
+  </div>
+
+  <script>
+    function pesan(){
+      alert("Website berhasil dibuat!");
+    }
+  </script>
+
+</body>
+</html>
